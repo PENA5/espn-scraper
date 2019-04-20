@@ -1,0 +1,29 @@
+<!-- Modal -->
+<div class="modal fade" id="newNote" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+                <div class="modal-header">
+                        <h3 class="modal-title">Notes</h3>
+                    </div>
+            <div class="modal-body">
+                <div class="form-group">
+                  <label for="note-title">Title</label>
+                  <input type="text"
+                    class="form-control" name="note-title" id="note-title" aria-describedby="helpId" placeholder="">
+                </div>
+
+                  <br>
+
+                  <div class="form-group">
+                  <label for="note-body">Note</label>
+                  <input type="text"
+                    class="form-control" name="note-body" id="note-body" aria-describedby="helpId" placeholder="">
+                </div>
+
+                <br>
+          
+            <div class="modal-footer">
+                <a href="#" data-id="{{article.id}}" id="saveNote">Save Note</a>
+            </div>
+        </div>
+    </div>
+</div>
