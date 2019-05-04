@@ -4,7 +4,7 @@ $(document).on("click", "#scrape", function () {
 });
 
    // When you click the save article button
-   $(document).on("click", "#article-save", function() {
+   $(document).on("click", ".article-save", function() {
     
     console.log("saving article");
     var thisId = $(this).attr("data-id");
